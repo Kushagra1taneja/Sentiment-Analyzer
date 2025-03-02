@@ -1,10 +1,11 @@
+import nltk
+nltk.download('stopwords')
 import re
 import streamlit as st
 import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.ensemble import RandomForestClassifier
-import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
